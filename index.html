@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Simon — Memory Game</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <h1 class="title">Simon</h1>
+                <p class="subtitle">Repeat the pattern. Beat your high score.</p>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="game-card" role="application" aria-label="Simon memory game">
+                <div class="status">
+                    <div class="level" id="level">Level —</div>
+                    <div class="highscore" id="highscore">Best: 0</div>
+                </div>
+
+                <div class="pads" id="pads">
+                    <button class="pad pad-red" data-color="red" aria-label="Red pad" id="pad-red"></button>
+                    <button class="pad pad-green" data-color="green" aria-label="Green pad" id="pad-green"></button>
+                    <button class="pad pad-blue" data-color="blue" aria-label="Blue pad" id="pad-blue"></button>
+                    <button class="pad pad-yellow" data-color="yellow" aria-label="Yellow pad" id="pad-yellow"></button>
+                </div>
+
+                <div class="controls">
+                    <button id="start" class="btn primary">Start</button>
+                    <button id="reset" class="btn">Reset</button>
+                    <div class="hint" id="hint">Click Start or press Space to begin</div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">Built with accessibility and simplicity in mind.</div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
