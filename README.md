@@ -18,11 +18,9 @@ How to run
 3. Repeat the shown sequence by clicking pads or pressing keys 1 (red), 2 (green), 3 (blue), 4 (yellow).
 
 Design notes
-- Kept styling simple and readable so you can explain choices in interviews.
 - WebAudio used for short tones; this avoids shipping asset files.
 
 Potential follow-ups
 - Add a "strict" mode (restart on mistake).
 - Add small animations & victory state when a long sequence is reached.
 
-If you'd like, I can also add unit tests or a small demo GIF for the README.
