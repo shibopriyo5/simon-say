@@ -57,7 +57,7 @@ body{
 .pad{
   position:relative;
   width:100%;
-  padding-bottom:100%; /* square */
+  padding-bottom:100%; 
   border-radius:var(--pad-radius);
   border:0;outline:0;cursor:pointer;
   transition:transform 160ms ease, box-shadow 160ms ease;
@@ -66,7 +66,7 @@ body{
 .pad:active{transform:scale(0.98)}
 .pad:focus{box-shadow:0 0 0 4px rgba(125,211,252,0.15)}
 
-/* Visual styling when pads are disabled (game-over) */
+
 .pad:disabled{
   opacity:0.45;
   cursor:not-allowed;
@@ -96,6 +96,6 @@ body{
   .hint{width:100%;margin-top:8px;margin-left:0}
 }
 
-/* small helper classes */
+
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 
